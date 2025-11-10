@@ -1,0 +1,56 @@
+# MATLAB & App Designer Temporary Files
+
+# Autosaves and backups
+*.asv
+*.m~
+*.autosave
+
+# App Designer autosave files
+*~.mlapp
+
+# Simulink/Project cache (even if unused now)
+slprj/
+simulinkcache/
+*.slxc
+
+# Compiled binaries for MATLAB
+*.mex*
+*.mexw64
+*.mexmaci64
+
+# Toolbox packages
+*.mltbx
+
+# Build / Deployment Outputs
+
+# MATLAB Compiler outputs
+*.ctf
+*.log
+*.exe
+*.zip
+*/for_redistribution*/
+*/for_testing*/
+*/distrib/*
+
+# Local build/output folders
+build/
+dist/
+output/
+bin/
+
+# OS + Editor Noise Files
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code / JetBrains / Misc IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# ignore .mat files
+*.mat
